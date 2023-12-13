@@ -37,7 +37,28 @@ body {
 
   background-color: #f7ead7;
 }
+button {
+  color: black;
+  background-color: pink;
+  border-radius: 1rem;
 
+}
+
+.top-btn{
+  color:white;
+  background-color: black;
+  border-radius: 1rem;
+
+  
+}
+
+header{
+  display: grid;
+  grid-template-columns: 1fr 4fr ;
+  gap: 5rem;
+  padding-bottom: 3rem;
+
+}
 /*
  * SR-ONLY
  */
@@ -64,6 +85,98 @@ body {
   padding: 0 1.0rem;
 }
 
-/*
- * ADD YOUR STYLES HERE
- */
+.code-list{
+  display: grid;
+  list-style-type: none;
+  gap: 1rem;
+  padding: 3rem;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.item-1 {
+  background-color: rgb(132, 55, 132);
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.item-2 {
+  background-color: darksalmon;
+  grid-row-start: 1;
+}
+
+.item-3{
+  background-color: darkgoldenrod;
+  grid-row-start: 1;
+}
+.item-4{
+  background-color: aqua;
+}
+
+.item-5{
+  background-color: aquamarine;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.item-6{
+  background-color: blueviolet;
+}
+
+.code-list >* {
+  padding: 1rem;
+  padding-top: 3rem;
+  border-radius: 1rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.amy {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  padding-left: 4rem;
+
+}
+
+.work-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.show-off {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.show-off >* {
+  padding:1rem ;
+  background-color:black;
+  border-radius: 2rem;
+
+}
+
+.call-card {
+  display:grid;
+  background-color: pink;
+  padding: 2rem;
+
+}
+
+.log {
+  size-adjust: 50px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+
+
